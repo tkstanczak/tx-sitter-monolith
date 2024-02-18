@@ -2,14 +2,14 @@
 escalation_interval = "1m"
 
 [server]
-host = "0.0.0.0:3000"
+host = "127.0.0.1:3000"
 disable_auth = true
 
 [rpc]
-rpcs = ["http://anvil:8545"]
+rpcs = ["http://127.0.0.1:8545"]
 
 [database]
-connection_string = "postgres://postgres:password@tx-sitter-db:5432/database"
+connection_string = "postgres://postgres:password@127.0.0.1:5431/database"
 
 [keys]
 kind = "local"
